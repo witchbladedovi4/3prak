@@ -23,8 +23,12 @@ namespace WpfApp4
         public MainWindow()
         {
             InitializeComponent();
-           
+            
         }
-    
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            titleToDo2.Text = titleToDo1.text; 
+        }
     }
 }
